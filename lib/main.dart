@@ -33,6 +33,7 @@ class _MyAppState extends State<MyApp> {
     Provider.of<DuelStateModel>(context, listen: false).soundPool = Soundpool(streamType: StreamType.notification);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Catan Admin App',
       theme: ThemeData(
         primarySwatch: Colors.blue,

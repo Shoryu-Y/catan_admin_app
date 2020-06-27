@@ -1,5 +1,4 @@
 import 'package:catanadminapp/duel_state.dart';
-import 'package:catanadminapp/playing_screen_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
